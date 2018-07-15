@@ -1,0 +1,145 @@
+.login-social-panel {
+  padding: 45;   
+  font-family: FontAwesome, fontawesome-webfont;
+  text-align: center;
+  background-color: #454abe;
+}
+
+.login-social-panel .group-connect-with-facebook .label, 
+.login-social-panel .group-connect-with-facebook {
+    background-color: #4262c0;
+    border-width: 0;
+}
+
+.login-social-panel .group-connect-with-facebook .icon
+{
+    border-width: 0;
+    border-color: #4262c0;
+}
+
+.login-social-panel .group-connect-with-facebook {
+    border-radius: 4;
+    border-width: 0;
+    color: #ffffff;
+    margin : 8;
+}
+
+.login-social-panel .group-connect-with-twitter .label ,
+.login-social-panel .group-connect-with-twitter {
+    background-color: #00adee;
+}
+.login-social-panel .group-connect-with-twitter {
+    border-radius: 4;
+    border-width: 0;
+    color: #ffffff;
+    margin : 8;
+}
+
+.login-social-panel .group-connect-with-linkedin .label ,
+.login-social-panel .group-connect-with-linkedin {
+    background-color: #006cac;
+}
+.login-social-panel .group-connect-with-linkedin {
+    border-radius: 4;
+    border-width: 0;
+    color: #ffffff;
+    margin : 8;
+}
+
+.login-social-panel .group-connect-with-instagram .label,
+.login-social-panel .group-connect-with-instagram {
+    background-color: #ae735b;
+}
+.login-social-panel .group-connect-with-instagram {
+    border-radius: 4;
+    border-width: 0;
+    color: #ffffff;
+    margin : 8;
+}
+
+.login-social-panel .group-login-with-username .label,
+.login-social-panel .group-login-with-username {
+    background-color: #19b325;
+}
+.login-social-panel .group-login-with-username {
+    border-radius: 4;
+    border-width: 0;
+    color: #ffffff;
+    margin : 8;
+}
+
+.login-social-panel .group-connect-with-facebook .icon ,
+.login-social-panel .group-connect-with-twitter .icon,
+.login-social-panel .group-connect-with-linkedin .icon,
+.login-social-panel .group-connect-with-instagram .icon,
+.login-social-panel .group-login-with-username .icon {
+    font-size: 30;
+}
+
+.android .login-social-panel .group-connect-with-facebook .icon ,
+.android .login-social-panel .group-connect-with-twitter .icon,
+.android .login-social-panel .group-connect-with-linkedin .icon,
+.android .login-social-panel .group-connect-with-instagram .icon,
+.android .login-social-panel .group-login-with-username .icon {
+    padding: 13;
+}
+.login-social-panel .group-connect-with-facebook .label, 
+.login-social-panel .group-connect-with-twitter .label ,
+.login-social-panel .group-connect-with-linkedin .label ,
+.login-social-panel .group-connect-with-instagram .label,
+.login-social-panel .group-login-with-username .label{
+    font-size: 20;
+}
+
+.login-social-panel .center-white {
+    color: #ffffff;
+    text-align: center;
+    font-size: 14;
+}
+.login-social-panel .dont-have-account-signup {
+    font-size: 14;
+    margin-left: -40;
+    width: 100%;
+}
+
+
+.login-social-panel .dont-have-account-signup .dont-have-account {
+    color: #7d80ca;
+}
+
+.android .login-social-panel .dont-have-account-signup .dont-have-account {
+    margin-top: 22;
+}
+
+.login-social-panel .dont-have-account-signup .signup {
+    text-align: left;
+    margin-left: 4;
+    color: #ecedff;
+}
+
+
+.android .login-social-panel .dont-have-account-signup .signup {
+   background-color: transparent;
+   border-width: 1;
+   border-color: transparent;
+}
+
+.login-social-panel .oneity-logo {
+    width: 180;
+    margin: 30;
+}
+
+.login-social-panel .btn-login  {
+    height: 44;
+    width: 100%;
+    padding: -4;
+}
+
+.login-social-panel .btn-login .label {
+    font-size: 17;
+}
+
+.login-social-panel .padding-5 {
+    padding: 5;
+}
+

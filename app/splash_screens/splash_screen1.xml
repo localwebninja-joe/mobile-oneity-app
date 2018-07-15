@@ -1,0 +1,4 @@
+
+<Page id="splash_screen" loaded="pageLoaded" class="page" xmlns="http://www.nativescript.org/tns.xsd">
+	<Image  src="~/splash_screens/Launch-Screen1.jpg" />
+</Page>

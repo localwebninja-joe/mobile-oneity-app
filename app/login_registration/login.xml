@@ -1,0 +1,20 @@
+<Page loaded="pageLoaded" class="page" xmlns="http://www.nativescript.org/tns.xsd">
+
+	<ActionBar title="Login" class="action-bar">
+	</ActionBar>
+
+	<ScrollView>
+		<StackLayout class="login-panel">
+			<!--Add your page content here-->
+			<Label text="Username" />
+			<TextField text="{{ txtUsername }}" autocorrect="false" hint="Enter text..." />
+			<Label text="Password" />
+			<TextField text="{{ txtPassword }}"  secure="true" autocorrect="false" hint="Enter text..." />
+			<Button text="Login" tap="{{ onLoginTap }}" />
+            <Image src="https://play.nativescript.org/dist/assets/img/NativeScript_logo.png" />
+            <Image src="https://play.nativescript.org/dist/assets/img/NativeScript_logo.png" />
+            <Image src="https://play.nativescript.org/dist/assets/img/NativeScript_logo.png" />
+            <Image src="https://play.nativescript.org/dist/assets/img/NativeScript_logo.png" />
+		</StackLayout>
+	</ScrollView>
+</Page>

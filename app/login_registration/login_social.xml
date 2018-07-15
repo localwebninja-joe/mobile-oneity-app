@@ -1,0 +1,45 @@
+<Page loaded="pageLoaded" class="page" xmlns="http://www.nativescript.org/tns.xsd" actionBarHidden="true">
+	<StackLayout class="login-social-panel">
+		<!--Add your page content here-->
+
+		<Image class="oneity-logo" src="~/login_registration/img_oneity_1.png" />
+
+		<label class="center-white padding-5" text="Login"></label>
+
+		<GridLayout class="group-connect-with-facebook btn-login" columns="60, auto, *" rows="55, auto, *"  >
+			<Label class="icon" text="&#xf09a;" row="0" col="0"  />
+			<Button class="label" text="Connect with Facebook" row="0" col="2"  tap="onButtonTap"  /> 
+		</GridLayout>
+
+		<GridLayout class="group-connect-with-twitter btn-login" columns="60, auto, *" rows="55, auto, *"  >
+			<Label class="icon" text="&#xf099;" row="0" col="0"  />
+			<Button class="label" text="Connect with Twitter" row="0" col="2"  tap="onButtonTap"  /> 
+		</GridLayout>
+
+		<GridLayout class="group-connect-with-linkedin btn-login" columns="60, auto, *" rows="55, auto, *" >
+			<Label class="icon" text="&#xf0e1;" row="0" col="0"  />
+			<Button class="label" text="Connect with Linkedin" row="0" col="2"  tap="onButtonTap"  /> 
+		</GridLayout>
+		
+		<GridLayout class="group-connect-with-instagram btn-login" columns="60, auto, *" rows="55, auto, *" >
+			<Label class="icon" text="&#xf16d;" row="0" col="0"  />
+			<Button class="label" text="Connect with Instagram" row="0" col="2"  tap="onButtonTap"  /> 
+		</GridLayout>
+
+		<label class="center-white padding-5" text="or"/>
+
+
+		<GridLayout class="group-login-with-username btn-login" columns="60, auto, *" rows="55, auto, *" >
+			<Label class="icon" text="&#xf2bd;" row="0" col="0"  />
+			<Button class="label" text="Login with Username" row="0" col="2"  tap="onButtonTap"  /> 
+		</GridLayout>
+
+
+		<GridLayout class="dont-have-account-signup" columns="60, auto, *" rows="60, auto, *"  >
+			<Label class="dont-have-account" text="Don't have an Account?" row="0" col="1"  />
+			<Button class="signup" text="Signup" row="0" col="2"  tap="onButtonTap" /> 
+		</GridLayout>
+
+
+	</StackLayout>
+</Page>
